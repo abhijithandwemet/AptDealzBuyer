@@ -27,8 +27,6 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchSdkVersion>
-    </MtouchSdkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -62,11 +60,12 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARM64</MtouchArch>
     <BuildIpa>true</BuildIpa>
-    <CodesignKey>iPhone Distribution: SyamKumar Thundiyil Sasidharan (Z5A8L9L245)</CodesignKey>
+    <CodesignKey>iPhone Distribution: APTDEALZ BUYER HUB AND E-TRADING PRIVATE LIMITED (5Y89QMBS2T)</CodesignKey>
     <CodesignEntitlements>
     </CodesignEntitlements>
-    <CodesignProvision>Buyer_AdHoc_10-12-2021</CodesignProvision>
+    <CodesignProvision>AptDealz Buyer App Distribution Profile</CodesignProvision>
     <MtouchExtraArgs>--optimize=experimental-xforms-product-type</MtouchExtraArgs>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
     <AppExtensionDebugBundleId />
@@ -241,7 +240,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\AptDealzBuyer\AptDealzBuyer.csproj">
-      <Project>{1B5D4EBA-85D2-4F4B-B062-EEA8AE695B82}</Project>
+      <Project>{30107251-B9F4-4D55-B48D-12F4B88606EE}</Project>
       <Name>AptDealzBuyer</Name>
     </ProjectReference>
   </ItemGroup>
